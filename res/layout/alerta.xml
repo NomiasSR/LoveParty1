@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/img_user" android:layout_width="UNKNOWN_DATA_0x6701" android:layout_height="UNKNOWN_DATA_0x6b01" android:src="@drawable/ic_warning_black_24dp" android:contentDescription="@string/app_name" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@+id/btn_ok" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_ok" android:layout_weight="1.0" />
+        <Button android:id="@+id/btn_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:padding="10dp" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView app:id="@+id/messagesRecyclerView" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginBottom="60dp" />
+    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:weightSum="4.0" app:layout_alignParentBottom="true">
+        <EditText app:id="@+id/messageEditText" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:hint="@string/enterMessage" app:layout_weight="3.0" app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+        <ImageButton app:id="@+id/sendMessageImagebutton" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:src="0x1080050" app:layout_weight="1.0" app:contentDescription="@string/emBranco" />
+    </LinearLayout>
+</RelativeLayout>

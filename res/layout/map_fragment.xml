@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@+id/mapfragment" app:focusable="true" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="1.0"
+    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_weight="0.0" app:layout_alignParentBottom="true" app:layout_alignParentStart="true">
+        <Button app:textSize="15sp" app:id="@+id/btnMover" app:layout_width="wrap_content" app:layout_height="match_parent" app:text="@string/btnMover" app:layout_weight="1.0" style="@*style/Widget.Holo.Button" />
+    </LinearLayout>
+    <Space app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xb01" app:layout_weight="0.0" />
+    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_weight="0.0">
+        <TextView app:id="@+id/textView5" app:layout_width="UNKNOWN_DATA_0xa01" app:layout_height="match_parent" app:text="@string/tvActionRange" app:layout_weight="1.0" />
+        <SeekBar app:id="@+id/sb1" app:layout_width="UNKNOWN_DATA_0xc801" app:layout_height="wrap_content" app:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="0.8">
+        <fragment map:name="com.google.android.gms.maps.SupportMapFragment" map:id="@+id/map" map:layout_width="match_parent" map:layout_height="match_parent" map:layout_alignBottom="@id/text" map:layout_alignParentStart="true" />
+    </LinearLayout>
+</LinearLayout>

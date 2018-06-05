@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="wrap_content" app:layout_height="match_parent">
+    <LinearLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="match_parent" app:layout_alignParentEnd="true">
+        <TextView app:textSize="12sp" app:textColor="0x106000c" app:id="@+id/chatMsgTextView" app:background="@color/color_dee5e5" app:paddingTop="8dp" app:paddingBottom="8dp" app:layout_width="UNKNOWN_DATA_0xe601" app:layout_height="wrap_content" app:layout_weight="1.0" app:textAlignment="textStart" app:paddingStart="12dp" app:paddingEnd="30dp" />
+        <ImageView app:id="@+id/imageView4" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0" app:contentDescription="@string/emBranco" app:srcCompat="@drawable/bubble_in" />
+    </LinearLayout>
+</RelativeLayout>
